@@ -1,29 +1,34 @@
 const playBtn = document.querySelector('.play-btn');
+const body = document.querySelector('body');
+
+function mouse(e) {
+    if (e.type == "mouseover") {
+        this.classList.remove('play-btn');
+        this.classList.add('play-btn-hover');
+        e.stopPropagation();
+    } else if (e.type == "mouseout") {
+        this.classList.remove('play-btn-hover');
+        this.classList.add('play-btn');
+        e.stopPropagation();
+    } else if (e.type == "mousedown") {
+        this.classList.remove('play-btn-hover');
+        this.classList.add('play-btn-click');
+        e.stopPropagation();
+    } else if (e.type == "mouseup") {
+        this.classList.remove('play-btn-click');
+        this.classList.add('play-btn-hover');
+        e.stopPropagation();
+    }
+}
+
+playBtn.addEventListener('mouseover', mouse);
+playBtn.addEventListener('mouseout', mouse);
+playBtn.addEventListener('mousedown', mouse);
+playBtn.addEventListener('mouseup', mouse);
 
 
-playBtn.addEventListener('mouseover', function(e) {
-    playBtn.classList.remove('play-btn');
-    playBtn.classList.add('play-btn-hover');
-    e.stopPropagation();
-});
 
-playBtn.addEventListener('mouseout', function(e) {
-    playBtn.classList.remove('play-btn-hover');
-    playBtn.classList.add('play-btn');
-    e.stopPropagation();
-});
 
-playBtn.addEventListener('mousedown', function(e) {
-    playBtn.classList.remove('play-btn-hover');
-    playBtn.classList.add('play-btn-click');
-    e.stopPropagation();
-});
-
-playBtn.addEventListener('mouseup', function(e) {
-    playBtn.classList.remove('play-btn-click');
-    playBtn.classList.add('play-btn-hover');
-    e.stopPropagation();
-});
 
 
 
