@@ -1,4 +1,42 @@
-let play = ["ROCK", "PAPER", "SCISSORS"];
+const playBtn = document.querySelector('.play-btn');
+
+
+playBtn.addEventListener('mouseover', function(e) {
+    playBtn.classList.remove('play-btn');
+    playBtn.classList.add('play-btn-hover');
+    e.stopPropagation();
+});
+
+playBtn.addEventListener('mouseout', function(e) {
+    playBtn.classList.remove('play-btn-hover');
+    playBtn.classList.add('play-btn');
+    e.stopPropagation();
+});
+
+playBtn.addEventListener('mousedown', function(e) {
+    playBtn.classList.remove('play-btn-hover');
+    playBtn.classList.add('play-btn-click');
+    e.stopPropagation();
+});
+
+playBtn.addEventListener('mouseup', function(e) {
+    playBtn.classList.remove('play-btn-click');
+    playBtn.classList.add('play-btn-hover');
+    e.stopPropagation();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+/*let play = ["ROCK", "PAPER", "SCISSORS"];
 
 function computerPlay() {
     let randomNum = Math.floor(Math.random() * 3);
@@ -89,3 +127,4 @@ function game() {
 }
 
 game();
+*/

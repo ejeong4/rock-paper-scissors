@@ -1,0 +1,105 @@
+@font-face {
+    font-family: lemonmilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: aldo;
+    src: url(fonts/AldotheApache.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #F3D3CA;
+}
+
+.title-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.title-txt {
+    font-family: 'lemonmilk', sans-serif;
+    font-size: 108px;
+    font-weight: 400;
+}
+
+.rock-txt {
+    color: #A67A54;
+}
+
+.paper-txt {
+    color: #8DA39E;
+}
+
+.scissors-txt {
+    color: #CBA169;
+    margin-top: 0;
+}
+
+.play {
+    margin-top: 30px;
+}
+
+.play-btn {
+    color: #7B948E;
+    background-color: #B3C1B2;
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    font-family: aldo, sans-serif;
+    font-size: 55px;
+}
+
+.play-btn-hover {
+    color: #7B948E;
+    background-color: #B3C1B2;
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    font-family: aldo, sans-serif;
+    font-size: 55px;
+    position: relative;
+    top: 10px;
+}
+
+.play-btn-click {
+    color: #6a857e;
+    background-color: #a2b3a1;
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    font-family: aldo, sans-serif;
+    font-size: 55px;
+    position: relative;
+    top: 15px;
+}
+
+.play-btn-bottom {
+    background-color: #9CA798;
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.play-shadow {
+    background-color: #E0C4BC;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    z-index: -2;
+}
