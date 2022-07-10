@@ -48,7 +48,7 @@ a {
 }
 
 .rock-paper-txt {
-    animation: fadeIn 2s;
+    animation: fadeIn 0.7s;
 }
 
 .rock-txt {
@@ -62,12 +62,12 @@ a {
 .scissors-txt {
     color: #CBA169;
     margin-top: 0;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
 }
 
 .play {
     margin-top: 30px;
-    animation: fadeIn 6s;
+    animation: fadeIn 2s;
 }
 
 .play-btn {
@@ -134,7 +134,7 @@ a {
     flex-direction: column;
     margin: auto;
     text-align: center;
-    animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
 }
 
 .computer-play-btn {
@@ -145,7 +145,7 @@ a {
     font-family: 'lemonmilk', sans-serif;
     font-size: 36px;
     color: #F3D3CA;
-    width: 600px;
+    width: 400px;
     margin: 50px auto 50px auto;
     border-radius: 30px;
     background-color: #D0AE8F;
@@ -153,11 +153,15 @@ a {
 
 .computer-play-top {
     width: 200px;
-    height: 200px;
+    height: 180px;
     border-radius: 70px;
     margin: auto;
     margin: auto;
     background-color: #B3C1B2;
+    font-size: 128px;
+    padding-top: 20px;
+    font-family: 'lemonmilk', sans-serif;
+    color: #F3D3CA;
 }
 
 .computer-play-bottom {
@@ -187,14 +191,14 @@ a {
     flex-direction: column;
     margin: auto;
     text-align: center;
-    animation: fadeIn 4s;
+    animation: fadeIn 1s;
 }
 
 .player-title {
     font-family: 'lemonmilk', sans-serif;
     font-size: 36px;
     color: #F3D3CA;
-    width: 600px;
+    width: 500px;
     margin: 20px auto;
     border-radius: 30px;
     background-color: #D0AE8F;
@@ -208,10 +212,36 @@ a {
 
 .rock-btn-top {
     width: 300px;
-    height: 300px;
+    height: 240px;
     border-radius: 100px;
     margin: 30px 30px;
     background-color: #B3C1B2;
+    font-size: 128px;
+    padding-top: 60px;
+}
+
+.rock-btn-top-hover {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #B3C1B2;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 15px;
+}
+
+.rock-btn-top-click {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #a9bba8;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 20px;
 }
 
 .rock-btn-bottom {
@@ -227,10 +257,36 @@ a {
 
 .paper-btn-top {
     width: 300px;
-    height: 300px;
+    height: 240px;
     border-radius: 100px;
     margin: 30px 30px;
     background-color: #CABB89;
+    font-size: 128px;
+    padding-top: 60px;
+}
+
+.paper-btn-top-hover {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #CABB89;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 15px;
+}
+
+.paper-btn-top-click {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #c4b47f;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 20px;
 }
 
 .paper-btn-bottom {
@@ -246,10 +302,36 @@ a {
 
 .scissors-btn-top {
     width: 300px;
-    height: 300px;
+    height: 240px;
     border-radius: 100px;
     margin: 30px 30px;
     background-color: #D0AE8F;
+    font-size: 128px;
+    padding-top: 60px;
+}
+
+.scissors-btn-top-hover {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #D0AE8F;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 15px;
+}
+
+.scissors-btn-top-click {
+    width: 300px;
+    height: 240px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #c9a584;
+    font-size: 128px;
+    padding-top: 60px;
+    position: relative;
+    top: 20px;
 }
 
 .scissors-btn-bottom {
