@@ -21,10 +21,17 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: transparent;
 }
 
 body {
     background-color: #F3D3CA;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .title-page {
@@ -116,5 +123,153 @@ body {
     margin: auto;
     position: relative;
     bottom: 100px;
+    z-index: -2;
+}
+
+
+/***********************************************************************************/
+
+.computer-play {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+.computer-play-btn {
+    height: 280px;
+}
+
+.computer-title {
+    font-family: 'lemonmilk', sans-serif;
+    font-size: 36px;
+    color: #F3D3CA;
+    width: 600px;
+    margin: 50px auto 50px auto;
+    border-radius: 30px;
+    background-color: #D0AE8F;
+}
+
+.computer-play-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
+    margin: auto;
+    margin: auto;
+    background-color: #B3C1B2;
+}
+
+.computer-play-bottom {
+    background-color: #9CA798;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 70px;
+    position: relative;
+    bottom: 180px;
+    z-index: -1;
+}
+
+.computer-play-shadow {
+    margin: auto;
+    height: 100px;
+    width: 250px;
+    border-radius: 70px;
+    background-color: #E0C4BC;
+    position: relative;
+    bottom: 250px;
+    z-index: -2;
+}
+
+.player-play {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 4s;
+}
+
+.player-title {
+    font-family: 'lemonmilk', sans-serif;
+    font-size: 36px;
+    color: #F3D3CA;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-color: #D0AE8F;
+}
+
+.player-btns {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.rock-btn-top {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #B3C1B2;
+}
+
+.rock-btn-bottom {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px auto 30px auto;
+    background-color: #9CA798;
+    position: relative;
+    bottom: 300px;
+    z-index: -1;
+}
+
+.paper-btn-top {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #CABB89;
+}
+
+.paper-btn-bottom {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px auto 30px auto;
+    background-color: #9CA798;
+    position: relative;
+    bottom: 300px;
+    z-index: -1;
+}
+
+.scissors-btn-top {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px 30px;
+    background-color: #D0AE8F;
+}
+
+.scissors-btn-bottom {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 30px auto 30px auto;
+    background-color: #9CA798;
+    position: relative;
+    bottom: 300px;
+    z-index: -1;
+}
+
+.player-btns-shadow {
+    width: 1200px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #E0C4BC;
+    margin: auto;
+    position: relative;
+    bottom: 450px;
     z-index: -2;
 }
