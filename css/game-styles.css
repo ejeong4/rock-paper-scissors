@@ -22,26 +22,27 @@ body {
     flex-direction: column;
     background-color: #F3D3CA;
     animation: fadeIn 1s;
+    margin: 0;
 }
 
 button {
-    width: 280px;
-    height: 280px;
+    width: 240px;
+    height: 240px;
     border-radius: 100px;
     background-color: #B3C1B2;
     font-size: 108px;
     border-style: none;
-    margin: 20px 30px;
+    margin: 10px 30px 30px 30px;
     box-shadow: 0 20px #9CA798, 40px 70px #E0C4BC;
 }
 
 .button-on {
-    height: 270px;
+    height: 230px;
     box-shadow: 0 15px #9CA798, 40px 70px #E0C4BC;
 }
 
 .button-down {
-    height: 265px;
+    height: 225px;
     box-shadow: 0 10px #9CA798, 40px 70px #E0C4BC;
     background-color: #a7b9a5;
 }
@@ -70,7 +71,7 @@ button {
     font-size: 32px;
     font-family: "aldo", sans-serif;
     color: #D0AE8F;
-    margin: 20px auto;
+    margin: 0 auto 5px auto;
 }
 
 #h1 {
@@ -78,11 +79,11 @@ button {
     font-family: 'lemonmilk', sans-serif;
     font-size: 32px;
     color: #F3D3CA;
-    width: 700px;
-    margin: 50px auto 0 auto;
+    width: auto;
+    margin: 15px auto;
     border-radius: 60px;
     background-color: #D0AE8F;
-    padding: 20px;
+    padding: 15px 30px;
 }
 
 #computer {
